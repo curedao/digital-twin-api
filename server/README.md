@@ -21,8 +21,9 @@ Your app is ready to be deployed!
 
 ## Environment Variables:
 
+
 | Environment          | Description                              | Value                                                       |
-| -------------------- | ---------------------------------------- | ----------------------------------------------------------- |
+|----------------------|------------------------------------------|-------------------------------------------------------------|
 | DEBUG_MODE           | Debug level                              | 1                                                           |
 | POSTGRESQL_URL       | Local database connection URL            | postgresql://admin:admin@localhost:5432/\${SERVICE_DB_NAME} |
 | POSTGRESQL_PORT      | Local database port                      | 5432                                                        |
