@@ -1,2 +1,4 @@
 /express/node_modules/
 /.idea/
+.env
+/node_modules/

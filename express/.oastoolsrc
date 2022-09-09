@@ -9,7 +9,7 @@
         "logFilePath": "./logs/oas-tools.log"
     },
     "middleware": {
-        "router": { "disable": false, "controllers": "K./controllers" },
+        "router": { "disable": false, "controllers": "./controllers" },
         "validator": { "requestValidation": true, "responseValidation": true, "strict": false },
         "security": { "disable": false, "auth": null },
         "swagger": { "disable": false, "path": "/docs", "ui": { "customCss": null, "customJs": null } },
