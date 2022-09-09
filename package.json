@@ -5,7 +5,8 @@
   "main": "express/index.js",
   "scripts": {
     "install": "cd server && npm install && cd ../client && npm install && cd ../express && npm install",
-    "models:generate": "cd server/prisma && npx prisma db pull"
+    "prisma:generate": "cd server/prisma && npx prisma db pull",
+    "models:generate": "npx ts-node server/scripts/generateModels.ts"
   },
   "keywords": [
     "digital health"
@@ -13,6 +14,6 @@
   "author": "mikepsinn",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "typeorm-model-generator": "^0.4.6"
+
   }
 }
